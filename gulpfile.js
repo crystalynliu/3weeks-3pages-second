@@ -15,10 +15,16 @@ gulp.task('images', function () {
     .pipe(gulp.dest('./dist/images'));
 });
 
+gulp.task('fonts', function() {
+  return gulp.src('./src/font/**.*')
+    .pipe(gulp.dest('./dist/font'))
+})
+
 gulp.task('serve', ['sass'], function() {
 
   browserSync.init({
-      server: "./"
+      server: "./",
+      port: 3030
   });
 
   gulp.watch("./src/*.scss", ['sass']);

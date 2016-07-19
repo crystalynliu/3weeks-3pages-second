@@ -9,8 +9,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="dist/main.css">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
@@ -20,115 +19,121 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <section>
-            <aside class="left-side">
-                <div class="logo"></div>
+        <section class="clearfix">
+            <aside class="left-side pull-left">
+                <div class="logo">
+                    <a href=""><img src="dist/images/logo.png" alt=""></a>
+                </div>
                 <ul class="nav">
-                <li class="nav-item"><a href="">TasteMakers</a></li>
-                    <li class="nav-item"><a href="">Blog</a></li>
-                    <li class="nav-item"><a href="">The A-List</a></li>
-                    <li class="nav-item"><a href="">Contribute</a></li>
-                    <li class="nav-item"><a href="">About</a></li>
+                    <li class="nav-item"><i class="fa fa-cutlery fa-lg"></i><a href=""> Tastemakers </a></li>
+                    <li class="nav-item"><i class="fa fa-photo fa-lg"></i><a href=""> Blog </a></li>
+                    <li class="nav-item"><i class="fa fa-check-square-o fa-lg"></i><a href=""> The A-List </a></li>
+                    <li class="nav-item"><i class="fa fa-camera fa-lg"></i><a href=""> Contribute </a></li>
+                    <li class="nav-item"><i class="fa fa-book fa-lg"></i><a href=""> About </a></li>
                 </ul>
                 <div class="join-link">
-                    <p class="join-title">LATEST TWEET</p>
-                    <button class="join-btn">Join the Conversation</button>
+                    <p class="join-title text-margin">LATEST TWEET</p>
+                    <button class="join-btn btn-border white-bg font-italic"><i class="fa fa-twitter fa-lg"></i> Join the Conversation </button>
                 </div>
                 <div class="join-link">
-                    <p class="join-title">LET'S BE FRIENDS!</p>
-                    <p class="join-content">For weekly finds, community recommendations, and more, like us on Facebook</p>
-                    <button class="join-btn">Join the Community</button>
+                    <p class="join-title text-margin">LET'S BE FRIENDS!</p>
+                    <p class="font-italic text-margin">For weekly finds, community recommendations, and more, like us on Facebook</p>
+                    <button class="join-btn btn-border white-bg"><i class="fa fa-facebook fa-lg"></i> Join the Community </button>
                 </div>
             </aside>
-            <div class="main-content">
-                <div class="photo-carousel">
-                    <img src="" alt="" class="main-photo">
-                    <p class="photo-desc">
-                    Shop for the Best</p>
-                    <p class="photo-desc">With our carefully curated vendor list, you'll know what to buy.
+            <div class="main-content pull-left">
+                <div class="photo-carousel clearfix">
+                    <p class="photo-desc pull-right white-bg font-italic">Shop for the Best</p>
+                    <p class="photo-desc pull-right black-bg font-italic">With our carefully curated vendor list, you'll know what to buy.
                     </p>
                 </div>
-                <ul class="carousel-list">
+                <ul class="carousel-list clearfix">
                     <li class="carousel-item">
                         <p class="item-title">Tastemakers</p>
-                        <p class="item-desc">Feast your eyes & get recipes!</p>
+                        <p class="item-desc font-italic">Feast your eyes & get recipes!</p>
                     </li>
                     <li class="carousel-item">
                         <p class="item-title">Blog</p>
-                        <p class="item-desc">News, how-tos, stories, and more</p>
+                        <p class="item-desc font-italic">News, how-tos, stories, and more</p>
                     </li>
-                    <li class="carousel-item">
+                    <li class="carousel-item active">
                         <p class="item-title">The A-List</p>
-                        <p class="item-desc">Handpicked, absolute favorites</p>
+                        <p class="item-desc font-italic">Handpicked, absolute favorites</p>
                     </li>
                     <li class="carousel-item">
                         <p class="item-title">Contribute</p>
-                        <p class="item-desc">We want to hear from you!</p>
+                        <p class="item-desc font-italic">We want to hear from you!</p>
                     </li>
                 </ul>
-                <div class="email-box">
-                    <div class="emil-logo"></div>
-                    <p class="message">
+                <div class="email-box clearfix text-margin">
+                    <div class="emil-logo pull-left">
+                        <i class="fa fa-envelope-o fa-2x"></i>
+                    </div>
+                    <p class="message pull-left">
                         Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.
                     </p>
-                    <form action="">
-                    <input type="text">
-                    <button>Subscribe</button></form>
+                    <form action="" class="scribe-form pull-right">
+                        <input type="text" size="35" placeholder="Email">
+                        <button class="subscibe-btn btn-border">Subscribe</button>
+                    </form>
                 </div>
-                <ul class="food-list">
+                <ul class="food-list text-margin clearfix ">
                     <li class="food-list-item">
-                        <div class="food-photo"><img src="" alt=""></div>
-                        <p class="food-title">2016's Best Summer Cookbooks</p>
-                        <p class="food-content">
+                        <div class="food-photo"><img src="dist/images/cakes.jpg" alt=""></div>
+                        <p class="food-title text-margin">2016's Best Summer Cookbooks</p>
+                        <p class="text-margin">
                         With the best of the season coming from "orchards, farms and gardens", NPR has put together an impressive collection of 10 summer cookbooks.
                         </p>
                         <div class="food-item-footer">
-                        <span class="food-item-date">May 23, 2016</span>
-                        <a href="" class="food-item-read">Read>></a></div>
+                        <span class="text-color-grey">May 23, 2016 / </span>
+                        <a href="" class="text-color-green">Read>></a></div>
                     </li>
                     <li class="food-list-item">
-                        <div class="food-photo"><img src="" alt=""></div>
-                        <p class="food-title">How to Make Vegetable Chips</p>
-                        <p class="food-content">About a month ago, I ate almost an entire box of kale chips. My brother and I were visiting our cousin in Brooklyn, and before a very thoughtfully prepared vegan…</p>
-                        <div class="food-item-footer"><span class="food-item-date">May 16, 2012</span><a href="" class="food-item-read">Read>></a></div>
+                        <div class="food-photo"><img src="dist/images/macarons.jpg" alt=""></div>
+                        <p class="food-title text-margin">How to Make Vegetable Chips</p>
+                        <p class="text-margin">About a month ago, I ate almost an entire box of kale chips. My brother and I were visiting our cousin in Brooklyn, and before a very thoughtfully prepared vegan…</p>
+                        <div class="food-item-footer"><span class="text-color-grey">May 16, 2012 / </span><a href="" class="text-color-green">Read>></a></div>
                     </li>
                     <li class="food-list-item">
-                        <div class="food-photo"><img src="" alt=""></div>
-                        <p class="food-title">Recipes from a Sunday Supper</p>
-                        <p class="food-content">
-        If I could curate a cookbook for you, this would be it.
-
+                        <div class="food-photo"><img src="dist/images/strawberry.jpg" alt=""></div>
+                        <p class="food-title text-margin">Recipes from a Sunday Supper</p>
+                        <p class="text-margin">
+                            If I could curate a cookbook for you, this would be it.
                         </p>
-                        <div class="food-item-footer"><span class="food-item-date">May 16, 2014</span><a href="" class="food-item-read">Read>></a></div>
+                        <div class="food-item-footer"><span class="text-color-grey">May 16, 2014 / </span><a href="" class="text-color-green">Read>></a></div>
                     </li>
                     <li class="food-list-item">
-                        <div class="food-photo"><img src="" alt=""></div>
-                        <p class="food-title">Recipes from a Sunday Supper</p>
-                        <p class="food-content">
-        I could not figure out what to do with the delectable slices of Pear Cake that I brought home from this wonderful Sunday supper - eat them slowly, a little bit at…
+                        <div class="food-photo"><img src="dist/images/yogurt.jpg" alt=""></div>
+                        <p class="food-title text-margin">Recipes from a Sunday Supper</p>
+                        <p class="text-margin">
+                            I could not figure out what to do with the delectable slices of Pear Cake that I brought home from this wonderful Sunday supper - eat them slowly, a little bit at…
                         </p>
-                        <div class="food-item-footer"><span class="food-item-date">May 16, 2016</span><a href="" class="food-item-read">Read>></a></div>
+                        <div class="food-item-footer"><span class="text-color-grey">May 16, 2016 / </span><a href="" class="text-color-green">Read>></a></div>
                     </li>
                 </ul>
             </div>
         </section>
-        <footer>
-            <div class="left-footer">
+        <footer class="clearfix">
+            <div class="left-footer pull-left text-margin">
                 <ul class="footer-link">
-                    <li class="link-item">Private policy</li>
-                    <li class="link-item">Terms of use</li>
-                    <li class="link-item">Contact</li>
+                    <li class="link-item"><a href="">Private policy</a></li>
+                    <li class="link-item"><a href="">Terms of use</a></li>
+                    <li class="link-item"><a href="">Contact</a></li>
                 </ul>
-                <div class="copy">&copy;right; 2016 By Li Junli, all rights reserved.</div>
+                <div class="text-color-grey">&copy; Food Sence 2016 By Liu Xinqian, all rights reserved.</div>
             </div>
-            <ul class="right-footer">
-                <li class="footer-icon"></li>
-                <li class="footer-icon"></li>
-                <li class="footer-icon"></li>
+            <ul class="right-footer pull-right text-margin text-color-grey">
+                <li class="footer-icon">
+                    <i class="fa fa-twitter fa-lg"></i>
+                </li>
+                <li class="footer-icon">
+                    <i class="fa fa-facebook fa-lg"></i>
+                </li>
+                <li class="footer-icon">
+                    <i class="fa fa-wifi fa-lg"></i>
+                </li>
             </ul>
         </footer>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

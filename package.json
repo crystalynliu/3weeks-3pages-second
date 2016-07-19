@@ -22,5 +22,8 @@
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.30",
     "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "gulp-ruby-sass": "^2.0.6"
   }
 }

@@ -1,0 +1,215 @@
+$text-color-green: #3BAB98;
+$border-color-grey: #E2E2E2;
+$text-color-grey: #A6A6A6;
+
+body{
+  max-width: 1200px;
+  margin: 20px auto;
+  font-size: 16px;
+  font-family: Georgia;
+
+  ul{
+    padding: 0;
+    margin: 0;
+    li{
+      list-style-type: none;
+    }
+  }
+
+  p{
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $text-color-green;
+    font-style: italic;
+  }
+  
+
+  .left-side{
+    width: 20%;
+    padding-right: 2%;
+    box-sizing: border-box; 
+    .nav {
+      .nav-item{
+        padding: 15px 5px;
+      }
+    }
+    .join-link{
+      margin: 40px 0;
+      width: 82%;
+      .join-title{
+        padding-bottom: 5px;
+        border-bottom: dashed 1px $border-color-grey;
+      }
+      .join-btn{
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 0.8em;
+        color: $text-color-green; 
+      }
+    }
+  }
+  .main-content{
+    width: 80%;
+    .photo-carousel{
+      height: 400px;
+      background: url(images/mainPhoto.jpg) no-repeat center;
+      background-size: cover;
+      .photo-desc{
+        padding: 8px 15px;
+        &:first-child{
+          font-size: 1.2em;
+          margin-top:250px; 
+        }
+        &:last-child{
+          clear: both;
+          color: #fff;
+        }
+      }
+    }
+    .carousel-list{
+      .carousel-item{
+        float: left;
+        padding-left: 2%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 25%;
+        color: $text-color-green;
+        background-color: #EFF8F7;
+        border-right:solid 1px #DAEFEC;
+        box-sizing:border-box; 
+        &:last-child{
+          border: none;
+        }
+        &.active{
+          background-color: #D9EFEC;
+        }
+        .item-desc{
+          font-size: 0.8em;
+        }
+      }
+    }
+    .email-box{
+      padding: 15px 2%;
+      border-bottom: dashed 1px $border-color-grey;
+      border-top: dashed 1px $border-color-grey;
+      .emil-logo{
+        margin-right:20px; 
+      }
+      .message{
+        font-size: 0.8em;
+        width: 45%;
+      }
+      .scribe-form{
+        input {
+          padding: 3px;
+          box-shadow: inset 0 1px 2px rgba(0,0,0,.1)
+        }
+        .subscibe-btn{
+          padding: 4px;
+          background-color: $border-color-grey;
+          font-weight:bold; 
+        }
+      }
+    }
+    .food-list{
+      .food-list-item{
+        float: left;
+        width: 22%;
+        margin-right: 3.33%;
+        box-sizing: border-box;
+        &:last-child{
+          margin-right: 0;
+        }
+        .food-photo{
+          padding: 8px;
+          border: solid 1px $border-color-grey;
+          img{width: 100%;}
+        }
+        .food-title{
+          font-size: 1.2em;
+          color: $text-color-green;
+        }
+      }
+    }
+  }
+  footer{
+    padding-left: 40px;
+    border-top: solid 2px $border-color-grey;
+    height: 110px;
+    .left-footer{
+      .footer-link {
+        .link-item{
+          display: inline;
+          padding: 0 5px;
+          border-right: solid 2px $border-color-grey;
+          &:last-child{
+            border: none;
+          }
+        }
+      }
+    }
+    .right-footer{
+      .footer-icon{
+        display: inline;
+        padding-left: 5px; 
+      }
+    }
+  }
+}
+
+.text-margin{
+  margin-bottom:20px;
+  margin-top: 20px; 
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+ 
+.btn-border{
+  border-radius: 5px;
+  border: solid 1px $border-color-grey;
+}
+
+.black-bg{
+  background-color: #000;
+}
+
+.white-bg{
+  background-color: #fff;
+}
+
+.pull-left{
+  float: left;
+}
+
+.pull-right{
+  float: right;
+}
+
+.font-italic{
+  font-style: italic;
+}
+
+.font-size-xs{
+  font-size: 0.8em;
+}
+
+.font-size-lg{
+  font-size: 1.2em;
+} 
+
+.text-color-green{
+  color: $text-color-green;
+}
+
+.text-color-grey{
+  color: $text-color-grey;
+}
